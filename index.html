@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. HaMo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+</div>
+  <div class="profile-card">
+    <div class="card-header">
+      <div class="pic">
+        <img src="https://pbs.twimg.com/profile_images/1259638131944554496/hsK7g2V9.jpg" alt="">
+      </div>
+      <div class="name">Hamza Haroon</div>
+      <div class="desc">Developer & Designer</div>
+      <div class="sm">
+        <a href="http://facebook.com/mrhamoofficial/" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/hamzaharoon1314" class="fab fa-twitter"></a>
+        <a href="https://github.com/Hamzaharoon1314" class="fab fa-github"></a>
+        <a href="https://www.youtube.com/c/hamzaharoon1314" class="fab fa-youtube"></a>
+      </div>
+      <a href="https://www.instagram.com/mrhamoofficial/" class="contact-btn">Contact Me</a>
+    </div>
+    <div class="card-footer">
+      <div class="numbers">
+        <div class="item">
+          <span>120</span>
+          Posts
+        </div>
+        <div class="border"></div>
+        <div class="item">
+          <span>150</span>
+          Following
+        </div>
+        <div class="border"></div>
+        <div class="item">
+          <span>1K</span>
+          Followers
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+
+  <script>
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+  </script>
+</body>
+</html>
